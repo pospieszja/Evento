@@ -8,7 +8,7 @@ namespace Evento.Core.Domain
         public string Description { get; protected set; }
         public DateTime StartDate { get; protected set; }
         public DateTime EndDate { get; protected set; }
-        public DateTime CreatedAt { get; set; }
-        public DateTime UpdatedAt { get; set; }
+        public DateTime CreatedAt { get; protected set; }
+        public DateTime UpdatedAt { get; protected set; }
     }
 }
